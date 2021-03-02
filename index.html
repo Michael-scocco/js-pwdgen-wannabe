@@ -18,9 +18,23 @@
 
         <div class="container">
             <div class="title">
-                <h1 class="title">CI SONO</h1>
+                <h1 id="title">CI SONO</h1>
             </div>
         </div>
+        <!-- GOAL: chiedere all'utente nome, cognome e colore preferito e stampare nell'h1 in pagina una stringa cosi' composta:
+        nomecognomecolore19
+        prendendo i dati da quelli forniti dall'utente -->
+
+        <script type="text/javascript">
+
+            var name = prompt('nome utente');
+            var lastName = prompt('cognome utente');
+            var favoriteColor = prompt('colore preferito');
+            var sumName = name + lastName + favoriteColor;
+            console.log(name, lastName, favoriteColor);
+            document.getElementById('title').innerHTML = sumName;
+
+        </script>
 
     </body>
 </html>
