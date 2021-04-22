@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    margin: 0 auto;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#title{
+    padding-bottom: 30px;
+}
+.container > .text > #par{
+    text-align: center;
+}
